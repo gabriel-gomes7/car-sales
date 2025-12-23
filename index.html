@@ -28,7 +28,7 @@
                     </div>
                     <div class="box-input">
                         <label for="price">Preço<span class="required-field">*</span></label>
-                        <input type="number" name="price" id="price" class="block" placeholder="Defina um Preço"
+                        <input type="text" name="price" id="price" class="block" placeholder="Defina um Preço"
                             minlength="1" maxlength="30" required />
                     </div>
                     <div class="box-input">
@@ -117,11 +117,18 @@
                             </div>
                             <input type="submit" value="enviar" class="btn-submit"/>
                 </form>
+                <div class="preview">
+  <h3 id="preview-title">Título do anúncio</h3>
+  <p id="preview-price">R$ 0,00</p>
+  <p id="preview-description">Descrição do veículo...</p>
+</div>
+
 
             </div>
         </div>
     </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

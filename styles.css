@@ -46,6 +46,9 @@ textarea{
        color: #fff;
 
     }
+    .container {
+        background-image: url();
+    }
     /* form container */
     .form-container{
         background-color: #fdfdfd;
@@ -100,7 +103,7 @@ textarea{
     .box-input p {
         margin-bottom: 15px;
     }
-    btn-submit {
+    .btn-submit {
         background-color: #673ab7;
         color: #fff;
         border: 2px solid transparent;
@@ -110,4 +113,16 @@ textarea{
         text-transform: uppercase;
         transition: 0.5s;
     }
-    
+    .btn-submit:hover {
+        background-color: #fff;
+        border-color: #673ab7;
+        color: #673ab7;
+    }
+    /* feedback visual estiloso */
+    input.valid {
+  border: 2px solid #22c55e; /* verde */
+}
+
+input.invalid {
+  border: 2px solid #ef4444; /* vermelho */
+}
